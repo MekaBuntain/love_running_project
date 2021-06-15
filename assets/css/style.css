@@ -257,7 +257,7 @@ footer {
 
 /* for larger to medium screens size from 1200px wide and down */
 
-@media screen (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -272,13 +272,13 @@ footer {
 
     #left-about, #right-about {
         width: 100%;
-        float: left;S
+        float: left;
         padding: 0;
 
     }
 
     #center-about {
-        clear: both;S
+        clear: both;
         width: 100%;
         float: left;
         padding: 0;
@@ -287,4 +287,10 @@ footer {
     hr {
         display: none;
     }
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    
 }
